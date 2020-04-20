@@ -1,0 +1,65 @@
+body{width: 850px;
+    margin:0 auto
+}
+main {
+    font-family: 'Roboto', sans-serif;
+    height: 450px;
+    background-image: url(./space.jpg);
+    margin-bottom: 20px;
+  }
+  section {
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        height: 324px;
+    }
+    h1{
+        margin-left: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25;
+        
+    }
+  article{
+      width: 270px;
+      height: 324px;
+      background-color: rgb(230,230,230);
+  }
+  p{
+      margin-left: 30px;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-family: 'Roboto', sans-serif;
+      font-weight: lighter;
+      color: rgb(130,130,130);
+      margin-bottom: 5px;
+      margin-top:5px
+  }
+  button{
+      font-family: 'Roboto', sans-serif;
+      font-size: 20;
+      font-weight: bold;
+      color: white;
+      border-style: none;
+      height: 40px;
+      width: 80px;
+      background-color: rgb(77,77,77);
+      margin-left: 30px;
+    }
+label{
+    margin-left:30px;
+}
+.name-box{
+    margin-right: 30px;
+}
+.message-box{
+    margin-right: 30px;
+}
+.centered{
+    font-family: 'Roboto', sans-serif;
+      font-size: 90px;
+      font-weight: bold;
+      color: white;
+      margin-top: 150px;
+    text-align: center;
+}
